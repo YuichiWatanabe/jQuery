@@ -11,8 +11,6 @@
  * @since     File available since Release 1.0.0
  */
 
-<<<<<<< HEAD
-=======
 /* -js demo-
 * $(".accordion").AccordionBox({
 * 		duration: "fast",
@@ -76,22 +74,18 @@
 * }
 */
 
->>>>>>> test
 ;(function($){
 	$.fn.AccordionBox = function(options){
 		var target = this;
 		options = $.extend({
-<<<<<<< HEAD
 			duration: "fast",		// int「ミリ秒単位の数字」String「'slow','normal','fast'」（開閉アニメーション速度）
 			defaultActive: 0,		// int「0～要素数 ※0は全閉」（初期状態で開く要素を指定）
 			action: "mulch",		// String「'single','mulch'」（単独開閉、複数開閉）
 			wrap: "div.wrap",		// String（親子のグループ名）
-=======
 			duration: "fast",			// int「ミリ秒単位の数字」String「'slow','normal','fast'」（開閉アニメーション速度）
 			defaultActive: 0,			// int「0～要素数 ※0は全閉」（初期状態で開く要素を指定）
 			action: "mulch",			// String「'single','mulch'」（単独開閉、複数開閉）
 			wrap: "div.wrap",			// String（親子のグループ名）
->>>>>>> test
 			parent: "div.parent",		// String（親要素名）
 			children: "ul.children",	// String（子要素名）
 			activeClass: "opened"		// String（アクティブ時のクラス名）
